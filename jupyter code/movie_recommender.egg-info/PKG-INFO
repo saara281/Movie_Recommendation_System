@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: movie_recommender
+Version: 0.1
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
+Requires-Dist: streamlit
+Dynamic: requires-dist
