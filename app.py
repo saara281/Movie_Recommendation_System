@@ -1,3 +1,13 @@
+import gdown
+import os
+
+if not os.path.exists("artifacts/similarity.pkl"):
+    gdown.download(
+        "https://drive.google.com/uc?id=1SlXeOXQY36FUQJV4N_Ny5ogm6P4Uksgw",
+        "artifacts/similarity.pkl",
+        quiet=False
+    )
+
 import pickle
 import streamlit as st
 import requests 
